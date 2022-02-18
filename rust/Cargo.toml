@@ -38,8 +38,8 @@ memmap = "0.7"
 rust-gpu-tools = { version = "0.5", default-features = false }
 storage-proofs-porep = { version = "~11.0", default-features = false }
 fr32 = { version = "~4.0", default-features = false }
-fvm = { git = "https://github.com/filecoin-project/ref-fvm", features = ["builtin_actors"] }
-fvm_shared = { git = "https://github.com/filecoin-project/ref-fvm" }
+fvm = { version = "0.1.0", features = ["builtin_actors"] }
+fvm_shared = "0.1.0"
 num-traits = "0.2.14"
 num-bigint = "0.4"
 cid = { version = "0.8.2", features = ["serde-codec"] }
